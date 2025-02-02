@@ -103,7 +103,6 @@ const import_modHN = (app, ob)=> {
     const { target, view: {document} } = evt
     const lineEl = document.querySelector('.cm-editor.cm-focused .cm-active.HyperMD-header')
     if (
-      target === lineEl ||
       (target.classList.contains('cm-header') && !target.classList.contains('cm-formatting'))
     ) {
       newPluginModal(app).main(document, lineEl)
