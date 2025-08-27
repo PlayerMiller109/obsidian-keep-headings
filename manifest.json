@@ -1,0 +1,10 @@
+{
+  "id": "keep-headings",
+  "name": "Keep Headings",
+  "version": "0.0.1",
+  "minAppVersion": "1.4.4",
+  "description": "Update internal links when renaming a heading.",
+  "author": "PlayerMiller109",
+  "authorUrl": "https://github.com/PlayerMiller109",
+  "isDesktopOnly": false
+}
